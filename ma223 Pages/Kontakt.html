@@ -10,8 +10,57 @@
                       <li><a href="../Index.html">index</a></li>                
                       <li><a href="../ma223%20Pages/Presentation.html">Presentation</a></li>
                       <li><a href="../ma223%20Pages/Laborationer.html">Laborationer</a></li>
-                      <li><a href="../ma223%20Pages/Kontakt.html">Kontakt</a></li
+                      <li><a href="../ma223%20Pages/Kontakt.html">Kontakt</a></li>
                 </ul>
     </p>
+<form id="kontaktformulär" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+    
+    <ul>
+        <li>
+            <label for="Namn">Namn:</label>
+            <input type="text" Namn="Namn" id="Namn" value="För och efternamn" />
+        </li>
+        <li>
+            <label for="Epost">E-post adress:</label>
+            <input type="text" name="Epost" id="Epost" value="1@2.com" />
+        </li>
+        <fieldset style="width: 300px;">
+            <legend>Vad vill du meddela mig om?</legend>
+            
+            <input type="checkbox" name="Vad vill du meddela mig om?" id="Klagomål" value="Klagomål"/>
+            <label for="Klagomål">Klagomål</label><br />
+            
+            <input type="checkbox" name="Vad vill du meddela mig om?" id="Fel på sidan" value="Fel på sidan"/>
+            <label for="Fel på sidan">Fel på sidan</label> <br />
+            
+            <input type="checkbox" name="Vad vill du meddela mig om?" id="Fråga om sidan" value="Fråga om sidan"/>
+            <label for="fråga om sidan">Fråga om sidan</label> <br />
+            
+            <input type="checkbox" name="Vad vill du meddela mig om?" id="Annat" value="Annat"/>
+            <label for="Annat">Annat</label>
+            
+            </fieldset>
+            <fieldset style="width: 300px;">
+            <legend>Kontaktväg</legend>
+            
+            <label for="select"><br />
+                Välj kontaktsätt:</label><br />
+                
+                <select name="kontaktsätt" id="kontaktsätt">
+                <option value="Mail"> E-post </option>
+                <option value="Fax"> Fax </option>
+                </select>
+            
+            </fieldset>
+        <li>
+            <label for="Meddelande">Meddelande:</label>
+            <textarea name="Meddelande" id="Meddelande" cols="30" rows="5"></textarea>
+        </li>
+        <li>
+            <input type="submit" value="Skicka" />
+            <input type="reset" value="Återställ" />
+        </li>
+    </ul>
+</form>
     </Body>
     </HTML>
