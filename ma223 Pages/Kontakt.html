@@ -12,23 +12,23 @@
                       <li><a href="../ma223%20Pages/Kontakt.html">Kontakt</a></li>
                 </ul>
 <form id="kontaktformulär" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
-    
-    <ul>
+<ul>
         <li>
-            <label for="Namn">Namn:</label>
+            <label for="name">Namn:</label>
             <input type="text" name="Namn" id="name" value="För och efternamn" />
         </li>
         <li>
-            <label for="Epost">E-post adress:</label>
+            <label for="email">E-post adress:</label>
             <input type="text" name="Epost" id="email" value="1@2.com" />
         </li>
+        </ul>
         <fieldset style="width: 300px;">
             <legend>Vad vill du meddela mig om?</legend>
             
             <input type="checkbox" name="Vad vill du meddela mig om?" id="complaint" value="complaint"/>
             <label for="complaint">Klagomål</label><br />
             
-            <input type="checkbox" name="Vad vill du meddela mig om?" id="Error" value="error"/>
+            <input type="checkbox" name="Vad vill du meddela mig om?" id="error" value="error"/>
             <label for="error">Fel på sidan</label> <br />
             
             <input type="checkbox" name="Vad vill du meddela mig om?" id="question" value="question"/>
@@ -36,13 +36,13 @@
             
             <input type="checkbox" name="Vad vill du meddela mig om?" id="other" value="other"/>
             <label for="other">Annat</label>
-            
             </fieldset>
+            
+            
             <fieldset style="width: 300px;">
             <legend>Kontaktväg</legend>
             
-            <label for="select"><br />
-                Välj kontaktsätt:</label><br />
+                Välj kontaktsätt:<br />
                 
                 <select name="kontaktsätt" id="kontaktsätt">
                 <option value="Mail"> E-post </option>
@@ -50,6 +50,7 @@
                 </select>
             
             </fieldset>
+            <ul>
         <li>
             <label for="Meddelande">Meddelande:</label>
             <textarea name="Meddelande" id="Meddelande" cols="30" rows="5"></textarea>
@@ -58,7 +59,7 @@
             <input type="submit" value="Skicka" />
             <input type="reset" value="Återställ" />
         </li>
-    </ul>
+        </ul>
 </form>
     </Body>
     </HTML>
