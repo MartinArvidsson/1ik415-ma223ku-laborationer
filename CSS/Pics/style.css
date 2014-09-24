@@ -16,12 +16,13 @@
         }
 #Linklist
         {
-            width: 280px; 
+            width: 350px; 
             background: #98AAA4;
             text-align:Left;
             border-style: solid;
             border-color: #000000;
             float:left;
+
         } 
 #Blogginlagg
         {
@@ -33,4 +34,30 @@
             border-style: solid;
             border-color: #000000;
         } 
-        
+#Footer
+        {
+            width: auto; 
+            background: #697F78;
+            text-align:Center;
+            border-style: solid;
+            border-color: #000000;
+            
+        }
+.Active
+        {
+            display:Block;
+            border-style: Solid;
+            border-color: #000000;
+            padding: 25px;
+            color: black;
+            text-decoration:none;
+        }
+#Listoflinks a
+        {
+            background-color: #00515C;
+        }
+#Listoflinks a:hover
+        {
+            color: #697F78;
+            background-color: #697F78;
+        }
