@@ -1,0 +1,36 @@
+#Container
+        {
+            width: auto;
+            background: #7CA297;
+            height: auto;
+            font-family:"Georgia";
+        }
+#Titel
+        {
+            width: auto; 
+            background: #697F78;
+            text-align:Center;
+            border-style: solid;
+            border-color: #000000;
+            
+        }
+#Linklist
+        {
+            width: 280px; 
+            background: #98AAA4;
+            text-align:Left;
+            border-style: solid;
+            border-color: #000000;
+            float:left;
+        } 
+#Blogginlagg
+        {
+            width: 880px; 
+            background: #697F78;
+            margin-left:auto;
+            margin-right:auto;
+            text-align:Center;
+            border-style: solid;
+            border-color: #000000;
+        } 
+        
