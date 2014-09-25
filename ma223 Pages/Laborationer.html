@@ -3,18 +3,23 @@
         <Head>
         <meta charset="utf-8" />
         <title>Martin Arvidssons laborationer!</title>
+        <link rel="stylesheet" type="text/css" href="../CSS/Pics/style.css">
     </Head>
         <Body>
+        <div id="Container">
+        <div id="Titel">
         <h1> Martin Arvidssons laborationsportal!</h1>
-    <p> Martin Arvidssons mediokra webbsida    </p>
-    
-                <ul>
+        </div>
+                <div id="Linklist">
+                <ul id = Listoflinks>
                       <li><a href="../Index.html">index</a></li>
                       <li><a href="Presentation.html">Presentation</a></li>
-                      <li><a href="Laborationer.html">Laborationer</a></li>
+                      <li><a href="Laborationer.html" class="Active">Laborationer</a></li>
                       <li><a href="Kontakt.html">Kontakt</a></li>
                       
                 </ul>
+                </div>
+                <div id="Blogginlagg">
                 <h3>Webbteknisk introduktion</h3>
             <ul>
                 <li><a href="#laboration1">Laboration 1</a></li>
@@ -22,7 +27,7 @@
             </ul>
                     <a name="laboration1"><h3> Laboration 1</h3></a>
             
-            uppgifter:
+            <h4>uppgifter:</h4>
         <ol>
             <li>www-katalog. Check</li>
             <li>Ett första dokument</li>
@@ -32,7 +37,7 @@
         
         <h3>Resultat</h3>
         
-        <table border="1">
+        <table id="tableofcontent">
         <thead>
         <tr>
             <th>Laboration</th>
@@ -41,12 +46,13 @@
             <th>Resultat</th>
             </tr>
         </thead>
+        <tfoot>
+            <tr> 
+            <td colspan="4">Laborationsresultat gällande Martin Arvidsson UD14</td>
+            </tr>
+        </tfoot>
         <tbody>
-            <tfoot>
-                <tr> 
-                <td colspan="4">Laborationsresultat gällande Martin Arvidsson UD14</td>
-                </tr>
-            </tfoot>
+            
                 <tr> 
                 <td rowspan="3">1</td>
                 <td>1</td>
@@ -96,7 +102,7 @@
                 </tr>
         </table>
         
-        Uppgifter:
+        <h4>Uppgifter:</h4>
         <ol>
             <li>Absoluta och relativa sökvägar<br />
                 skriv den absoluta sökvägagen till filen bottom.html<br />
@@ -118,5 +124,10 @@
             </li>
             <li>Video</li>
         </ol>
+        </div>
+        <div id="Footer">
+        <footer> Martin Arvidsson är ansvarig utgivare för sidan, frågor gå till kontakt.</footer>
+        </div>
+        </div>
     </Body>
     </HTML>
