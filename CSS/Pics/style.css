@@ -113,5 +113,13 @@ table,thead,tfoot,tbody,td,tr
 {
     border: solid 2px black;
 }
-
-
+p1
+        {
+            text-align:Left;            
+            padding-left: 5px;
+}
+#formulär
+{
+        text-align:Left;            
+        padding-left: 25px;
+}

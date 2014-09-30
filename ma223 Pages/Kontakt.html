@@ -3,63 +3,80 @@
         <Head>
         <meta charset="utf-8" />
         <title>Martin Arvidssons Kontakta mig!</title>
+        <link rel="stylesheet" type="text/css" href="../CSS/Pics/style.css">
     </Head>
     <Body>
-                <ul>
-                      <li><a href="../Index.html">index</a></li>                
+    <div id="Container">
+        <div id="Titel">
+        <Header>   
+        <h1> Kontaktformulär , var god fyll i:</h1>
+        </header>
+        </div>
+                <div id="Linklist">
+                <ul id= Listoflinks>
+                      <li><a href="../Index.html">index</a></li>
                       <li><a href="Presentation.html">Presentation</a></li>
                       <li><a href="Laborationer.html">Laborationer</a></li>
-                      <li><a href="Kontakt.html">Kontakt</a></li>
+                      <li><a href="Kontakt.html" class="Active">Kontakt</a></li>
                 </ul>
-<form id="kontaktformulär" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
-<ul>
-        <li>
-            <label for="name">Namn:</label>
-            <input type="text" name="Namn" id="name" value="För och efternamn" />
-        </li>
-        <li>
-            <label for="email">E-post adress:</label>
-            <input type="text" name="Epost" id="email" value="1@2.com" />
-        </li>
-        </ul>
-        <fieldset style="width: 300px;">
-            <legend>Vad vill du meddela mig om?</legend>
-            
-            <input type="checkbox" name="Klagomål" id="complaint" value="complaint"/>
-            <label for="complaint">Klagomål</label><br />
-            
-            <input type="checkbox" name="Fel på sidan" id="error" value="error"/>
-            <label for="error">Fel på sidan</label> <br />
-            
-            <input type="checkbox" name="Fråga om sidan" id="question" value="question"/>
-            <label for="question">Fråga om sidan</label> <br />
-            
-            <input type="checkbox" name="Annat" id="other" value="other"/>
-            <label for="other">Annat</label>
-            </fieldset>
-            
-            
+                </div>
+                <div id="Blogginlagg">
+        <div id="formulär">
+        <form id="kontaktformulär" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+        <ul>
+            <li>
+                <label for="name">Namn:</label><br />
+                <input type="text" name="Namn" id="name" value="För och efternamn" />
+            </li>
+            <li>
+                <label for="email">E-post adress:</label><br  />
+                <input type="text" name="Epost" id="email" value="1@2.com" />
+            </li>
+            </ul>
             <fieldset style="width: 300px;">
-            <legend>Kontaktväg</legend>
-            
-                Välj kontaktsätt:<br />
+                <legend>Vad vill du meddela mig om?</legend>
                 
-                <select name="kontaktsätt" id="kontaktsätt">
-                <option value="Mail"> E-post </option>
-                <option value="Fax"> Fax </option>
-                </select>
-            
-            </fieldset>
-            <ul>
-        <li>
-            <label for="Meddelande">Meddelande:</label>
-            <textarea name="Meddelande" id="Meddelande" cols="30" rows="5"></textarea>
-        </li>
-        <li>
-            <input type="submit" value="Skicka" />
-            <input type="reset" value="Återställ" />
-        </li>
+                <input type="checkbox" name="Klagomål" id="complaint" value="complaint"/>
+                <label for="complaint">Klagomål</label><br />
+                
+                <input type="checkbox" name="Fel på sidan" id="error" value="error"/>
+                <label for="error">Fel på sidan</label> <br />
+                
+                <input type="checkbox" name="Fråga om sidan" id="question" value="question"/>
+                <label for="question">Fråga om sidan</label> <br />
+                
+                <input type="checkbox" name="Annat" id="other" value="other"/>
+                <label for="other">Annat</label>
+                </fieldset>
+                
+                
+                <fieldset style="width: 300px;">
+                <legend>Kontaktväg</legend>
+                
+                    Välj kontaktsätt:<br />
+                    
+                    <select name="kontaktsätt" id="kontaktsätt">
+                    <option value="Mail"> E-post </option>
+                    <option value="Fax"> Fax </option>
+                    </select>
+                
+                </fieldset>
+                <ul>
+            <li>
+                <label for="Meddelande">Meddelande:</label> <br />
+                <textarea name="Meddelande" id="Meddelande" cols="30" rows="5"></textarea>
+            </li>
+            <li>
+                <input type="submit" value="Skicka" />
+                <input type="reset" value="Återställ" />
+            </li>
         </ul>
-</form>
-    </Body>
+        </form>
+        </div>
+        </div>
+        </div>
+        <div id="Footer">
+        <footer> Martin Arvidsson är ansvarig utgivare för sidan, frågor gå till kontakt.</footer>
+        </div>
+        </Body>
     </HTML>
