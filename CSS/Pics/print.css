@@ -1,0 +1,140 @@
+#Container
+        {
+            width: 1200px;
+            background: #FFFFFF;
+            height: 960px;
+            font-family:"Verdana";
+            margin:0 auto;
+        }
+#Titel
+        {
+            margin-left:auto;
+            margin-right:auto;
+            width: auto; 
+            background:#FFFFFF;
+            text-align:Center;
+            
+        }
+#Linklist ul
+        {
+            display:none;
+            text-align:Left;
+            border-color: #000000;
+            float:left;
+            list-style-type: none;
+
+        } 
+#Blogginlagg
+        {
+            width: 880px; 
+            background:#FFFFFF;
+            text-align:Center;
+            border-style: none;
+            border-color: #000000;
+            float:Left;
+        }
+video
+{
+    display:none;
+}
+#Footer
+        {
+            width: auto; 
+            background:#FFFFFF;
+            text-align:Center;
+            border-style: none;
+            border-color: #000000;
+            clear:both;
+        }
+
+#Listoflinks a.Active
+        {
+            display:none;
+            list-style-type: none;
+            background-color: #98AAA4;
+            display:Block;
+            border-style: Solid;
+            border-color: #000000;
+            padding: 25px;
+            color: black;
+            text-decoration:none;
+        }
+#Listoflinks a
+{
+            display:none;
+            list-style-type: none;
+            background-color: #697F78;
+            display:Block;
+            border-style: Solid;
+            border-color: #000000;
+            padding: 25px;
+            color: black;
+            text-decoration:none;
+}
+#Listoflinks a:hover
+        {
+            display:none;
+            color: black;
+            background-color: #337F78;
+        }
+html
+        {
+            width: auto;
+            background: #FFFFFF;
+        }
+h3
+        {
+            border-bottom:none;
+        }
+p
+        {
+            text-align:Left;
+            padding-left: 5px;
+            border-bottom:none;
+        }
+#Blogginlagg .wikilogo
+{
+    float:right;
+    
+}
+.right
+{
+    float:right;
+}
+h4
+{
+    border-bottom:none;
+}
+ol,ul
+{
+    text-align:Left;
+}
+table
+{
+    margin-right:auto;
+    margin-left:auto;
+}
+table,thead,tfoot,tbody,td,tr
+{
+    border:5px black solid;
+}
+p1
+        {
+            text-align:Left;            
+            padding-left: 5px;
+}
+#formulär
+{
+        text-align:Left;            
+        padding-left: 25px;
+}
+a:link:after, a:visited:after
+{
+    content:" [" attr(href) "] ";
+}
+a:link
+{ 
+    font-weight: bold;
+    text-decoration: underline;
+    color: #06c;
+}
