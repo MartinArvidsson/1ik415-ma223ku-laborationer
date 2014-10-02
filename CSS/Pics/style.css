@@ -66,6 +66,9 @@
             padding: 25px;
             color: black;
             text-decoration:none;
+            background-image: url(sprite.png);
+            background-repeat:no-repeat;
+            
 }
 #Listoflinks a:hover
         {
@@ -122,4 +125,36 @@ p1
 {
         text-align:Left;            
         padding-left: 25px;
+}
+.index
+{
+    background-position:0 -24px;
+}
+.index:hover
+{
+    background-position:0 24px;
+}
+.Laborationer
+{
+    background-position:0 -122px;
+}
+.Laborationer:hover
+{
+    background-position:0 -74px;
+}
+.Presentation
+{
+    background-position:0 -216px;
+}
+.Presentation:hover
+{
+    background-position:0 -168px;
+}
+.Kontakt
+{
+    background-position:0 -265px;
+}
+.Kontakt:hover
+{
+    background-position:0 -313px;
 }
