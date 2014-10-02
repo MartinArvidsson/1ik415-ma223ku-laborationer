@@ -107,6 +107,10 @@ ol,ul
 {
     text-align:Left;
 }
+fieldset ol, ul{
+    padding:0;
+    list-style-type:none;
+}
 table
 {
     margin-right:auto;
@@ -128,7 +132,27 @@ p1
 }
 fieldset
 {
-    width:200px;
+    padding:0;
+    width:300px;
+}
+fieldset  ul
+{
+    padding:0;
+    list-style-type:none;
+    margin:0;
+    padding-left:0;
+}
+fieldset li
+{
+    list-style-type:none;
+    padding-left:0;
+    margin:0;
+}
+#meddelandebox
+{
+    margin-left:-20px;
+    padding:0;
+    margin:0;
 }
 .index
 {

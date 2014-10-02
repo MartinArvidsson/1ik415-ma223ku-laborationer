@@ -24,17 +24,18 @@
                 <div id="Blogginlagg">
         <div id="formulär">
         <form id="kontaktformulär" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+        <fieldset>
+        <legend>Ärende</legend>
         <ul>
-            <li>
                 <label for="name">Namn:</label><br />
                 <input type="text" name="Namn" id="name" value="För och efternamn" />
-            </li>
             <li>
                 <label for="email">E-post adress:</label><br  />
                 <input type="text" name="Epost" id="email" value="1@2.com" />
             </li>
             </ul>
-            <fieldset style="width: 300px;">
+        </fieldset>
+            <fieldset>
                 <legend>Vad vill du meddela mig om?</legend>
                 
                 <input type="checkbox" name="Klagomål" id="complaint" value="complaint"/>
@@ -63,15 +64,18 @@
                 
                 </fieldset>
                 <ul>
+            <fieldset id="meddelandebox">
+            <legend>Skriv ditt meddelande</legend>
             <li>
                 <label for="Meddelande">Meddelande:</label> <br />
-                <textarea name="Meddelande" id="Meddelande" cols="30" rows="5"></textarea>
+                <textarea name="Meddelande" id="Meddelande" cols="39" rows="8"></textarea>
             </li>
             <li>
                 <input type="submit" value="Skicka" />
                 <input type="reset" value="Återställ" />
             </li>
-        </ul>
+            </fieldset>
+                </ul>
         </form>
         </div>
         </div>
