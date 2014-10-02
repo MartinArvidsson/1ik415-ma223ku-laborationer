@@ -126,6 +126,10 @@ p1
         text-align:Left;            
         padding-left: 25px;
 }
+fieldset
+{
+    width:200px;
+}
 .index
 {
     background-position:0 -24px;
