@@ -132,8 +132,9 @@ p1
 }
 fieldset
 {
-    padding:0;
-    width:300px;
+    padding:0px;
+    width:350px;
+    margin-top:8px;
 }
 fieldset  ul
 {
@@ -153,6 +154,11 @@ fieldset li
     margin-left:-20px;
     padding:0;
     margin:0;
+}
+legend
+{
+    margin-left:auto;
+    margin-right:auto;
 }
 .index
 {
