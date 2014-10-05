@@ -1,10 +1,12 @@
-#Container
+@media only screen and (max-device-width:480px)
+{
+    #Container
         {
-            width: 1200px;
+            width: auto;
             background: #7CA297;
-            height: 960px;
+            height: auto;
             font-family:"Verdana";
-            margin:0 auto;
+            margin:0 0;
         }
 #Titel
         {
@@ -20,15 +22,17 @@
         }
 #Linklist ul
         {
-            text-align:Left;
             border-color: #000000;
             float:left;
             list-style-type: none;
+            width:99%;
+            text-align:center;
+            margin:0 0;
 
         } 
 #Blogginlagg
         {
-            width: 880px; 
+            width: 100%; 
             background: #E6E6E6;
             text-align:Center;
             border-style: solid;
@@ -43,16 +47,17 @@
             border-style: solid;
             border-color: #000000;
             clear:both;
+            margin:0 0;
+            width:99%;
         }
-
 #Listoflinks a.Active
         {
-            list-style-type: none;
+            list-style-type:none;
             background-color: #98AAA4;
-            display:Block;
             border-style: Solid;
             border-color: #000000;
-            padding: 25px;
+            width:100%;
+            padding: 5px;
             color: black;
             text-decoration:none;
         }
@@ -60,21 +65,16 @@
 {
             list-style-type: none;
             background-color: #697F78;
-            display:Block;
             border-style: Solid;
+            width:100%;
             border-color: #000000;
-            padding: 25px;
+            padding: 5px;
             color: black;
             text-decoration:none;
             background-image: url(sprite.png);
             background-repeat:no-repeat;
             
 }
-#Listoflinks a:hover
-        {
-            color: black;
-            background-color: #337F78;
-        }
 html
         {
                     width: auto;
@@ -82,13 +82,13 @@ html
         }
 h3
         {
-            border-bottom: Solid 7px black;
+            border-bottom: Solid 3px black;
         }
 p
         {
             text-align:Left;            
-            border-bottom: double 4px black;
-            padding-left: 5px;
+            border-bottom: double 2px black;
+            padding-left: 2.5px;
         }
 #Blogginlagg .wikilogo
 {
@@ -101,7 +101,7 @@ p
 }
 h4
 {
-    border-bottom: solid 4px black;
+    border-bottom: solid 2px black;
 }
 ol,ul
 {
@@ -192,4 +192,5 @@ legend
 .Kontakt:hover
 {
     background-position:0 -313px;
+}
 }
