@@ -25,7 +25,12 @@
             float:left;
             list-style-type: none;
 
-        } 
+        }
+#video
+{
+    width:880;
+    height:480;
+}
 #Blogginlagg
         {
             width: 880px; 

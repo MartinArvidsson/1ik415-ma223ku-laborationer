@@ -1,18 +1,25 @@
-@media only screen and (max-device-width:480px)
-{
-    #Container
+@media only screen and (max-device-width:480px){
+#Container
         {
             width: auto;
+            max-width:480px;
             background: #7CA297;
             height: auto;
             font-family:"Verdana";
             margin:0 0;
+            font-size:13px;
+            padding:0 0;
         }
+body
+{
+    margin:0 0;
+}
 #Titel
         {
             margin-left:auto;
             margin-right:auto;
-            width: auto; 
+            width:98.2%;
+            max-width:480px;
             background: #697F78;
             text-align:Center;
             border-style: solid;
@@ -25,20 +32,40 @@
             border-color: #000000;
             float:left;
             list-style-type: none;
-            width:99%;
+            width:95.5%;
             text-align:center;
             margin:0 0;
 
         } 
 #Blogginlagg
         {
-            width: 100%; 
+            width: 98.2%; 
             background: #E6E6E6;
             text-align:Center;
-            border-style: solid;
-            border-color: #000000;
+            border-style:solid;
+            border-color:#000000;
             float:Left;
-        } 
+        }
+video
+{
+    width:98%;
+    height:auto;
+}
+img
+{
+    width:auto;
+    height:auto;
+}
+#svgbild
+{
+    width:300px;
+    height:auto;
+}
+#Selfie
+{
+    width:300px;
+    height:auto;
+}
 #Footer
         {
             width: auto; 
@@ -48,7 +75,7 @@
             border-color: #000000;
             clear:both;
             margin:0 0;
-            width:99%;
+            width:98.3%;
         }
 #Listoflinks a.Active
         {
@@ -71,8 +98,7 @@
             padding: 5px;
             color: black;
             text-decoration:none;
-            background-image: url(sprite.png);
-            background-repeat:no-repeat;
+            background-image:none;
             
 }
 html
@@ -134,7 +160,7 @@ p1
 fieldset
 {
     padding:0px;
-    width:350px;
+    width:300px;
     margin-top:8px;
 }
 fieldset  ul
@@ -161,36 +187,5 @@ legend
     margin-left:auto;
     margin-right:auto;
 }
-.index
-{
-    background-position:0 -24px;
-}
-.index:hover
-{
-    background-position:0 24px;
-}
-.Laborationer
-{
-    background-position:0 -122px;
-}
-.Laborationer:hover
-{
-    background-position:0 -74px;
-}
-.Presentation
-{
-    background-position:0 -216px;
-}
-.Presentation:hover
-{
-    background-position:0 -168px;
-}
-.Kontakt
-{
-    background-position:0 -265px;
-}
-.Kontakt:hover
-{
-    background-position:0 -313px;
-}
+
 }
