@@ -101,11 +101,6 @@ img
             background-image:none;
             
 }
-html
-        {
-                    width: auto;
-                    background: #7CA297;
-        }
 h3
         {
             border-bottom: Solid 3px black;
@@ -116,76 +111,15 @@ p
             border-bottom: double 2px black;
             padding-left: 2.5px;
         }
-#Blogginlagg .wikilogo
-{
-    float:right;
-    
-}
-.right
-{
-    float:right;
-}
 h4
 {
     border-bottom: solid 2px black;
 }
-ol,ul
-{
-    text-align:Left;
-}
-fieldset ol, ul
-{
-    padding:0;
-    list-style-type:none;
-}
-table
-{
-    margin-right:auto;
-    margin-left:auto;
-}
-table,thead,tfoot,tbody,td,tr
-{
-    border: solid 2px black;
-}
-p1
-        {
-            text-align:Left;            
-            padding-left: 5px;
-}
-#formulär
-{
-        text-align:Left;            
-        padding-left: 25px;
-}
+
 fieldset
 {
     padding:0px;
     width:300px;
     margin-top:8px;
 }
-fieldset  ul
-{
-    padding:0;
-    list-style-type:none;
-    margin:0;
-    padding-left:0;
-}
-fieldset li
-{
-    list-style-type:none;
-    padding-left:0;
-    margin:0;
-}
-#meddelandebox
-{
-    margin-left:-20px;
-    padding:0;
-    margin:0;
-}
-legend
-{
-    margin-left:auto;
-    margin-right:auto;
-}
-
 }
