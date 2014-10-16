@@ -1,3 +1,4 @@
+
 header
 {
     margin:0 auto;
@@ -73,7 +74,11 @@ body
 }
 .Galleriet a:hover , .Galleriet a:focus
 {
-    transform: scale(1.3);
+    
+    -ms-transform: cale(1.3);
+    -moz-transform: cale(1.3);
+    -webkit-transform: cale(1.3);
+    transform: cale(1.3);
     z-index:10;
     box-shadow:0 30px 60px #888888;
 }

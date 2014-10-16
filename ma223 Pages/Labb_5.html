@@ -7,60 +7,71 @@
         <link rel="stylesheet" type="text/css" href="../CSS/Pics/mobile.css">
         <link rel="stylesheet" type="text/css" href="../CSS/Pics/print.css" media="print">
     </Head>
-    <Main>
-    <div id="Container">
-    <div id="Titel">
-        <header>
-            <h1> Martin Arvidssons 5.1 med html5taggar </h1>
-        </header>
-    </div>
-                <nav id="Linklist">
-                    <ul>
-                      <li><a class="Active index" href="Index.html" >Index</a></li>
-                      <li><a class="Presentation" href="ma223%20Pages/Presentation.html" >Presentation</a></li>
-                      <li><a class="Laborationer" href="ma223%20Pages/Laborationer.html" >Laborationer</a></li>
-                      <li><a class="Kontakt" href="ma223%20Pages/Kontakt.html" >Kontakt</a></li>
-                    </ul>
-                </nav>
-        <div id="Blogginlagg">        
-        <h2> Min Kursblogg</h2>
-        <h3> Här kommer jag presentera kursresultat med mera.</h3>
-        <h4><img src="../CSS/Pics/Scroll1.png" alt="scroll" class="scroll"> Blogginlägg uppgift 2.7 25/9 -2014.</h4>
-        <Article> <img src="../CSS/Pics/Wikipedia_logo.png" alt="Wikipedia_logo" class="right">Cascading Style Sheets (CSS, på svenska stilmall) är ett språk som beskriver presentationsstilen för ett strukturerat dokument som till exempel typsnitt,
-        textstorlek och färg. Tekniken är ett sätt att anpassa dokumentet med hänsyn till datortyp, skärmupplösning, färgdjup och installerade typsnitt.
-        Namnet kommer från en författares möjlighet att definiera ett utseende som sedan kan återanvändas på flera dokument med olika innehåll.
-        Tekniken introducerades av Håkon Wium Lie och Bert Bos 1994 i webbläsaren Argo.
-        Ett XML- eller HTML-baserat dokument har inte på förhand en given utformning utan består av strukturerad text utan stilinformation.
-        Hur dokumentet skrivs ut på papper, på en webbsida, på displayen i en mobiltelefon eller en handdator, bestäms av en stilmall.
-        CSS ingår inte som en del av XML-språket, men kan användas för att anpassa presentationer av webbsidor.
-        I slutändan är det dock mottagarklienten som har stort inflytande över hur dokumentet presenteras.(Faktan är tagen ifrån wikipedia.) <a href="http://sv.wikipedia.org/wiki/Cascading_Style_Sheets">
-            Artikel om ämnet.</a>
-            <br />
-            <br />
-            Bilden i artikeln är wikipedias logo, dom äger rättigheterna till bilden.
-            <br />
-            <br />
-            <fieldset>
-            <legend>Kommentarsfält!</legend>
-            <ul>
-                <li>Kul artikel! - 2014/09/11</li>
-                <li>Bra jobbat! - 2010/11/12</li>
-                <li>Du har ett skumt färgschema.. - 2009/4/4</li>
-                <li>Spännande! - 2009/2/1</li>
-            </ul>
-            </fieldset>
-            </Article>
-        <Article> Här kommer jag redovisa labrationer med mera. Denna text är en del av steg 1.3 jag skriver detta 15.30 2014-09-16</Article>
+    <body>
+        <div id="Container">
         
-            <Article>här är ett blogginlägg med videon från <a href="http://www.bigbuckbunny.org/index.php/trailer-page/">Big buck bunny!</a>
-            <video controls width="880" height="480"><source src="../Videos/trailer_400p.ogg" type="video/ogg"></video><br /></Article>
-            <Article>här är min svg bild!<br />
-            <img src="../Pictures/SVGBILD.svg" alt="en svg bild" id="svgbild">
-            </Article>
+            <div id="Titel">
+                <header>
+                    <h1> Martin Arvidssons 5.1 med html5taggar </h1>
+                </header>
+            </div>
+            
+            <nav id="Linklist">
+                <ul>
+                  <li><a class="Active index" href="Index.html" >Index</a></li>
+                  <li><a class="Presentation" href="ma223%20Pages/Presentation.html" >Presentation</a></li>
+                  <li><a class="Laborationer" href="ma223%20Pages/Laborationer.html" >Laborationer</a></li>
+                  <li><a class="Kontakt" href="ma223%20Pages/Kontakt.html" >Kontakt</a></li>
+                </ul>
+            </nav>
+            <main id="Blogginlagg">
+                <h2> Min Kursblogg</h2>
+                <h3> Här kommer jag presentera kursresultat med mera.</h3>
+                
+                <Article>
+                    <h4><img src="../CSS/Pics/Scroll1.png" alt="scroll" class="scroll"> Blogginlägg uppgift 2.7 25/9 -2014.</h4>
+                    <p>
+                        <img src="../CSS/Pics/Wikipedia_logo.png" alt="Wikipedia_logo" class="right">Cascading Style Sheets (CSS, på svenska stilmall) är ett språk som beskriver presentationsstilen för ett strukturerat dokument som till exempel typsnitt,
+                        textstorlek och färg. Tekniken är ett sätt att anpassa dokumentet med hänsyn till datortyp, skärmupplösning, färgdjup och installerade typsnitt.
+                        Namnet kommer från en författares möjlighet att definiera ett utseende som sedan kan återanvändas på flera dokument med olika innehåll.
+                        Tekniken introducerades av Håkon Wium Lie och Bert Bos 1994 i webbläsaren Argo.
+                        Ett XML- eller HTML-baserat dokument har inte på förhand en given utformning utan består av strukturerad text utan stilinformation.
+                        Hur dokumentet skrivs ut på papper, på en webbsida, på displayen i en mobiltelefon eller en handdator, bestäms av en stilmall.
+                        CSS ingår inte som en del av XML-språket, men kan användas för att anpassa presentationer av webbsidor.
+                        I slutändan är det dock mottagarklienten som har stort inflytande över hur dokumentet presenteras.(Faktan är tagen ifrån wikipedia.)
+                    </p>
+                        <a href="http://sv.wikipedia.org/wiki/Cascading_Style_Sheets">Artikel om ämnet.</a>
+                    <p>
+                        Bilden i artikeln är wikipedias logo, dom äger rättigheterna till bilden.
+                    </p>
+                    <p>Kommentarer!</p>
+                    <aside>
+                        <p>Cool sida! - skrivet 2014-10-4</p>
+                        <p>vilka färger!- skrivet 2014-09-3</p>
+                        <p>Jag kunde inte fylla i formuläret, fixa tack! - skrivet 2014-08-5</p>
+                    </aside>
+                </Article>
+                
+                <Article>
+                    <h4>Kaninfilm!</h4>
+                    <p> Här kommer jag redovisa labrationer med mera. Denna text är en del av steg 1.3 jag skriver detta 15.30 2014-09-16</p>
+                
+                    <p>här är ett blogginlägg med videon från <a href="http://www.bigbuckbunny.org/index.php/trailer-page/">Big buck bunny!</a>
+                    <video controls width="880" height="480"><source src="../Videos/trailer_400p.ogg" type="video/ogg"></video><br /></p>
+                </Article>
+                
+                <Article>
+                <h4>SVG bild!</h4>
+                    <p>här är min svg bild!<br />
+                    <img src="../Pictures/SVGBILD.svg" alt="en svg bild" id="svgbild">
+                    </p>
+                </Article>
+            </main>
+            
+            <div id="Footer">
+                <footer> Martin Arvidsson är ansvarig utgivare för sidan, frågor gå till kontakt.</footer>
+            </div>
+            
         </div>
-        <div id="Footer">
-        <footer> Martin Arvidsson är ansvarig utgivare för sidan, frågor gå till kontakt.</footer>
-        </div>
-        </div>
-    </Main>
+    </body>
 </HTML>
