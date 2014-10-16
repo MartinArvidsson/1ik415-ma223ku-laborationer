@@ -95,6 +95,12 @@ Article
             border-bottom: double 4px black;
             padding-left: 5px;
         }
+Article1 a.dl 
+        {
+            text-align:Left;            
+            
+            padding-left: 5px;
+        }        
 #Blogginlagg .wikilogo
 {
     float:right;
