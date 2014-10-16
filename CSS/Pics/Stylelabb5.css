@@ -23,7 +23,7 @@
             text-align:Left;
             border-color: #000000;
             float:left;
-            list-style-type: none;
+            list-style: none;
 
         }
 #video
@@ -52,7 +52,7 @@
 
 nav a.Active
         {
-            list-style-type: none;
+            list-style: none;
             background-color: #98AAA4;
             display:Block;
             border-style: Solid;
@@ -63,7 +63,7 @@ nav a.Active
         }
 nav a
 {
-            list-style-type: none;
+            list-style: none;
             background-color: #697F78;
             display:Block;
             border-style: Solid;
